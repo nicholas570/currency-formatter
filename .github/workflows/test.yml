@@ -28,7 +28,7 @@ jobs:
           cache: 'npm'
 
       - name: Install dependencies
-        run: echo 'installing dependencies' && npm install
+        run: echo 'installing dependencies' && npm ci
 
       - name: Run tests
         run: echo 'running tests' && npm run test:ci

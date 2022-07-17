@@ -1,1 +1,1 @@
-console.log('currency-formatter');
+export { CurrencyFormatter } from './core';

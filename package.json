@@ -1,6 +1,6 @@
 {
   "name": "@nicholas570/currency-formatter",
-  "version": "2.0.0",
+  "version": "1.0.0",
   "description": "A light currency formatter based on Internationalization API",
   "main": "dist/index.js",
   "files": [

@@ -7,6 +7,19 @@
     "dist",
     "README.md"
   ],
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nicholas570/currency-formatter.git"
+  },
+  "homepage": "https://github.com/nicholas570/currency-formatter.git",
+  "keywords": [
+    "format",
+    "currency",
+    "money"
+  ],
   "scripts": {
     "start": "ts-node src",
     "start:dev": "nodemon",
@@ -14,9 +27,10 @@
     "test:watch": "npm run test -- --watchAll",
     "test:coverage": "npm run test -- --coverage",
     "test:ci": "npm run test -- --clearCache --ci --watchAll=false",
-    "build": "rimraf ./dist && tsc"
+    "build": "rimraf ./dist && tsc",
+    "prepare": "npm run build"
   },
-  "author": "Nicolas Mercier",
+  "author": "Nicolas Mercier <nicolas.mercier570@gmail.com>",
   "license": "MIT",
   "devDependencies": {
     "@types/jest": "^28.1.5",

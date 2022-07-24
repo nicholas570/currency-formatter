@@ -1,8 +1,12 @@
 {
-  "name": "currency-formatter",
+  "name": "@nicholas570/currency-formatter",
   "version": "1.0.0",
   "description": "A light currency formatter based on Internationalization API",
-  "main": "dist/src/index.js",
+  "main": "dist/index.js",
+  "files": [
+    "dist",
+    "README.md"
+  ],
   "scripts": {
     "start": "ts-node src",
     "start:dev": "nodemon",

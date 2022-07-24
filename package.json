@@ -27,8 +27,7 @@
     "test:watch": "npm run test -- --watchAll",
     "test:coverage": "npm run test -- --coverage",
     "test:ci": "npm run test -- --clearCache --ci --watchAll=false",
-    "build": "rimraf ./dist && tsc",
-    "prepare": "npm run build"
+    "build": "rimraf ./dist && tsc"
   },
   "author": "Nicolas Mercier <nicolas.mercier570@gmail.com>",
   "license": "MIT",

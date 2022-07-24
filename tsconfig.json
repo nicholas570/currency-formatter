@@ -9,6 +9,7 @@
     "declaration": true,
     "sourceMap": true,
     "outDir": "dist",
-    "rootDir": "./"
-  }
+    "rootDir": "./src"
+  },
+  "exclude": ["src/test", "jest.config.ts"]
 }

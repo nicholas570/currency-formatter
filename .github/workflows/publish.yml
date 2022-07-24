@@ -20,5 +20,3 @@ jobs:
 
       - name: publish
         run: echo "Publishing" && npm publish --access public
-        env:
-          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}

@@ -2,7 +2,7 @@
   "name": "currency-formatter",
   "version": "1.0.0",
   "description": "A light currency formatter based on Internationalization API",
-  "main": "index.js",
+  "main": "dist/src/index.js",
   "scripts": {
     "start": "ts-node src",
     "start:dev": "nodemon",
